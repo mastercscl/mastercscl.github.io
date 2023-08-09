@@ -25,7 +25,7 @@ var x = setInterval(function() {
   //If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "SIMHUB partecipa alla Notte dei Ricercatori 2022!";
+    document.getElementById("countdown").innerHTML = "SIMHUB partecipa alla Notte dei Ricercatori 2023";
   }
 }, 1000);
 
