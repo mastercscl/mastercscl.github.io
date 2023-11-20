@@ -19,9 +19,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the results
-  document.getElementById("countdown").innerHTML="EDURISVO inizia tra<br>
-	  <b>" + days + "</b> giorni <b>" + hours + "</b> ore <b>"
-  + minutes + "</b> minuti <b>" + seconds + "</b> e secondi;
+ document.getElementById("countdown").innerHTML="EDURISVO inizia tra<br><b>" + days + "</b> giorni <b>" + hours + "</b> ore e <b>"
+  + minutes + "</b> minuti";
 
   //If the count down is over, write some text 
   if (distance < 0) {
